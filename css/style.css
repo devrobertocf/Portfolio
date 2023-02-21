@@ -43,7 +43,7 @@ html, body {
 /* ------ Footer ------ */
 footer {
 	color: white;
-	text-align: auto;
+	text-align: center;
 	
 }
 
@@ -167,10 +167,12 @@ p {
 	margin-bottom: 3vh;
 }
 p2 {
+	text-align: justify;
 	line-height: 170%;
 	font-family:'Regular';
 	font-size: 22px;
 	margin-bottom: 3vh;
+	
 }
 
 p.size-small {
