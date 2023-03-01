@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', () =>{
         speed: 200,
         loop: true
     })
-    .type('Aguarde...', {delay:900}).delete(10)
+    .type('Aguarde...', {delay:200}).delete(10)
     .type('Novidades a camin', {delay: 500}).pause(1000).delete(7).pause(1000)
     .type('em breve!', {delay: 500}).pause(1000)
     // O nº entre o parenteses do delete diz qts caracteres serão apagados.
-    .go()
+    .go() // Faz rodar a animação.
 })
 
 //Texto será escrito um depois do outro, depois apaga tudo.
