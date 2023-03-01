@@ -1,3 +1,24 @@
+//Texto 01 será escrito, apaga, depois texto 02 será escrito e apaga tudo.
+
+document.addEventListener('DOMContentLoaded', () =>{
+    new TypeIt(".animated", {
+        speed: 200,
+        loop: true
+    }).type('Aguarde...', {delay:900}).delete(10).type('Novidades a camin', {delay: 500}).delete(7)
+    // O nº entre o parenteses do delete diz qts caracteres serão apagados.
+    .go()
+})
+
+//Texto será escrito um depois do outro, depois apaga tudo.
+//document.addEventListener('DOMContentLoaded', () =>{
+    //new TypeIt(".animated", {
+        //speed: 200,
+        //strings: ["Aguarde...", "Novidades em breve..."],
+       
+    //}).go()
+//})
+
+// JS para animação do botão...
 //<body>
     //<div id="area"onclick="Clicar()" onmouseenter="entrar()" onmouseout="sair()">
     //    Interaja...
