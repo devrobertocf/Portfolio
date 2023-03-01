@@ -4,7 +4,10 @@ document.addEventListener('DOMContentLoaded', () =>{
     new TypeIt(".animated", {
         speed: 200,
         loop: true
-    }).type('Aguarde...', {delay:900}).delete(10).type('Novidades a camin', {delay: 500}).delete(7)
+    })
+    .type('Aguarde...', {delay:900}).delete(10)
+    .type('Novidades a camin', {delay: 500}).delete(7)
+    .type('em breve!', {delay: 500})
     // O nº entre o parenteses do delete diz qts caracteres serão apagados.
     .go()
 })
