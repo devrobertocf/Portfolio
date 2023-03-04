@@ -91,14 +91,20 @@ small {
 	border-radius: 5px;
 	background-color: #da0c0c;
 	color: #fff;
-	transition: all 1s ease-in-out;
+	transition: all 0.5s ease-in-out;
 	width: 200px;
   }
   
-  button:hover {
-	background-color: #da0c0c;
-	cursor: pointer;
-  }
+  	button:hover,
+	button:focus {
+  	background-color: #da0c0c;
+  	cursor: pointer;
+}
+
+	button:focus {
+  	outline: none;
+}
+
 /* ------ My Skills ------ */
 
 .container {
