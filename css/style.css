@@ -72,6 +72,33 @@ small {
 	height: 10%;
 }
 
+/* ------ Redes de Contato ------ */
+
+#button-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  button {
+	padding: 15px 30px;
+	margin: 10px 0;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 5px;
+	background-color: #da0c0c;
+	color: #fff;
+	transition: all 1s ease-in-out;
+	width: 200px;
+  }
+  
+  button:hover {
+	background-color: #da0c0c;
+	cursor: pointer;
+  }
 /* ------ My Skills ------ */
 
 .container {
