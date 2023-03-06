@@ -12,6 +12,8 @@ buttons.forEach(button => {
   });
 });
 
+//Deixar texto em NEGRITO quando passa o mouse em cima
+
 function negrito(elemento) {
   elemento.style.fontWeight = "bold";
 }
