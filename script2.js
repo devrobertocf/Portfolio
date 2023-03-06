@@ -11,3 +11,11 @@ buttons.forEach(button => {
     button.style.color = '#fff';
   });
 });
+
+function negrito(elemento) {
+  elemento.style.fontWeight = "bold";
+}
+
+function normal(elemento) {
+  elemento.style.fontWeight = "normal";
+}
