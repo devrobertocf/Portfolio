@@ -1,3 +1,5 @@
+//Mudar a cor do botão quando coloca e tira o mouse.
+
 const buttons = document.querySelectorAll('button');
 
 buttons.forEach(button => {
@@ -12,7 +14,7 @@ buttons.forEach(button => {
   });
 });
 
-//Deixar texto em NEGRITO quando passa o mouse em cima
+//Deixar texto em NEGRITO quando passa o mouse em cima.
 
 function negrito(elemento) {
   elemento.style.fontWeight = "bold";
